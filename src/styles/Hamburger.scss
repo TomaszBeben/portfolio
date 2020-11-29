@@ -1,0 +1,13 @@
+.hamburger-container {
+    background-color: gray;
+    height: 50px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hamburger-button:hover {
+    color: green;
+    cursor: pointer;
+}

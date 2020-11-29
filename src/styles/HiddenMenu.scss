@@ -1,0 +1,27 @@
+.hiddenMenu-container-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hiddenMenu-container {
+    width: 70vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.hiddenMenu-elem {
+    font-size: 30px;
+    margin: 5vh 0 5vh 0;
+    &:hover {
+        color: green;
+        cursor: pointer;
+    }
+}
+
+.hide {
+    display: none;
+}
