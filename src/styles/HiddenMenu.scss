@@ -25,3 +25,23 @@
 .hide {
     display: none;
 }
+
+.hamburger-container {
+    background-color: gray;
+    height: 50px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hamburger-button-container {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-button:hover {
+    cursor: pointer;
+}
