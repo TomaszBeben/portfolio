@@ -11,6 +11,16 @@
     flex-direction: column;
     align-items: center;
     padding-top: 5vh;
+    @media (min-width: 800px) {
+        width: 100vw;
+        height: 50px;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 5px;
+    }
 }
 
 .hiddenMenu-elem {
@@ -19,6 +29,10 @@
     &:hover {
         color: green;
         cursor: pointer;
+    }
+    @media (min-width: 800px) {
+        font-size: 20px;
+        margin-left: 10px;
     }
 }
 
@@ -33,15 +47,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    @media(min-width: 800px) {
+        display: none;
+    }
 }
 
 .hamburger-button-container {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hamburger-button:hover {
-    cursor: pointer;
 }

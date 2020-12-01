@@ -5,13 +5,13 @@ import Hamburger from './Hamburger';
 const HiddenMenu = () => {
     const show = 'hiddenMenu-container-container';
     const hide = 'hiddenMenu-container-container hide'
-    const [hidden, setHidden] = useState(hide)
+    const [hidden, setHidden] = useState(show)
     const switchFunc = () => hidden === hide ? setHidden(show) : setHidden(hide);
     return (
         <>
             <div className='hamburger-container'  >
                 <div className='hamburger-button-container' onClick={switchFunc}>
-                    <Hamburger className='hamburger-button'  />
+                    <Hamburger/>
                 </div>
             </div>
             <div className={hidden}>
