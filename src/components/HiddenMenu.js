@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import Hamburger from './Hamburger';
 
-
 const HiddenMenu = () => {
     const show = 'hiddenMenu-container-container';
     const hide = 'hiddenMenu-container-container hide'
-    const [hidden, setHidden] = useState(show)
+    const [hidden, setHidden] = useState(hide)
     const switchFunc = () => hidden === hide ? setHidden(show) : setHidden(hide);
     return (
         <>

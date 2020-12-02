@@ -17,6 +17,7 @@
     font-size: 35px;
     color: gray;
     &:hover {
+        transition: 0.3s;
         color: black;
         cursor: pointer;
     }
