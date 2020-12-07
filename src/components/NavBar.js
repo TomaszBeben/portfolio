@@ -1,11 +1,17 @@
 import React from 'react';
+import {
+    HashRouter,
+    Link
+  } from "react-router-dom";
 
-const NavBar = () =>{
-    return(
+const NavBar = () => {
+    return (
+        <HashRouter>
         <div className='navBar-container'>
-            <div className='navBar-name'>TOMASZ BĘBEN</div>
-            <i className="navBar-form fas fa-user-circle"></i>
+            <Link to='/'><div className='navBar-name'>TOMASZ BĘBEN</div></Link>
+            <Link to='/form'><i className="navBar-form fas fa-user-circle"></i></Link>
         </div>
+        </HashRouter>
     )
 }
 

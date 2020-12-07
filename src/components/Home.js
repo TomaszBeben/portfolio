@@ -4,11 +4,12 @@ import HiddenMenu from './HiddenMenu'
 import NavBar from './NavBar';
 
 
-const Home = () =>{
-    return(
+
+const Home = () => {
+    return (
         <>
-        <NavBar/>
-        <HiddenMenu/>
+            <NavBar />
+            <HiddenMenu />
         </>
     )
 }

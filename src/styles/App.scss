@@ -1,5 +1,6 @@
 @import './NavBar.scss';
 @import './HiddenMenu.scss';
+@import './Form.scss';
 body {
     background-color: black;
     color: white;
@@ -7,4 +8,9 @@ body {
     @media (min-width: 1000px) {
         margin: 0 10vw 0 10vw;
     }
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
