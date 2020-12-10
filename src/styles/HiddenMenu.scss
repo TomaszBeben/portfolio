@@ -1,17 +1,17 @@
 .hiddenMenu-container-container {
     display: flex;
     justify-content: center;
+    position: absolute;
 }
 
 .hiddenMenu-container {
-    width: 70vw;
+    width: 100vw;
     background-color: grey;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5vh;
-    z-index: 3;
     position: relative;
     @media (min-width: 800px) {
         width: 100vw;
@@ -41,9 +41,12 @@
 }
 
 .hide {
-    display: none;
+    // position: absolute;
+    top: -1000px;
     @media (min-width: 800px) {
+        top: 0px;
         display: flex;
+        position: relative;
     }
 }
 
