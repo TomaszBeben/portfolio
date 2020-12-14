@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import {
+    HashRouter,
+    Link
+  } from "react-router-dom";
 import Hamburger from './Hamburger';
 
 const HiddenMenu = () => {
@@ -14,12 +18,16 @@ const HiddenMenu = () => {
                 </div>
             </div>
             <div className={hidden}>
+                <HashRouter>
                 <div className='hiddenMenu-container'>
-                    <div className='hiddenMenu-elem'>PROJEKTY</div>
+                    <div className='hiddenMenu-elem'>
+                        <Link to='/social'>Social Media</Link>
+                    </div>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>
                 </div>
+                </HashRouter>
             </div>
         </>
     )
