@@ -7,15 +7,15 @@ const SocialMedia = () => {
     return (
         <div className='socialMedia-container'>
             <div >
-                <div className='socialMedia-elem github'>
+                <a className='socialMedia-elem github'>
                     <img className="socialMedia-img" src={githubImg} alt="facebook" />
-                </div>
-                <div className='socialMedia-elem linkedIn'>
+                </a>
+                <a className='socialMedia-elem linkedIn'>
                     <img className="socialMedia-img" src={facebookImg} alt="facebook" />
-                </div>
-                <div className='socialMedia-elem facebook'>
-                    <img className="socialMedia-img" src={facebookImg} alt="facebook" />
-                </div>
+                </a>
+                <a href="https://www.google.pl" target="_blank" className='socialMedia-elem facebook'>
+                    <img className="socialMedia-img" src={facebookImg} alt="facebook"/>
+                </a>
             </div>
         </div>
     )
