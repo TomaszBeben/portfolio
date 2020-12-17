@@ -20,9 +20,7 @@ const HiddenMenu = () => {
             <div className={hidden}>
                 <HashRouter>
                 <div className='hiddenMenu-container'>
-                    <div className='hiddenMenu-elem'>
-                        <Link to='/social'>Social Media</Link>
-                    </div>
+                    <Link className='hiddenMenu-elem' to='/social'>Social Media</Link>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>
                     <div className='hiddenMenu-elem'>PROJEKTY</div>

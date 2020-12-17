@@ -1,19 +1,28 @@
 .socialMedia-container {
     display: flex;
     justify-content: center;
-    z-index: 1;
+    flex-direction: column;
+    @media(min-width: 1000px) {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .socialMedia-elem {
-    padding: 5vh 0 5vh 0;
+    width: 300px;
+    height: 200px;
+    margin: 50px 50px 50px 50px;
+    @media(min-width: 1000px) {
+        margin: 50px 50px 50px 50px;
+    }
 }
 
 .socialMedia-img {
     width: 300px;
     height: 200px;
-    margin: 20px 0 20px 0;
+    margin: 20px 20px 20px 20px;
     filter: grayscale(100%);
-    transition: 0.4s;
+    transition: 0.3s;
     cursor: pointer;
     &:hover {
         filter: grayscale(20%)
