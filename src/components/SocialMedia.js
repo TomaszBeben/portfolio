@@ -1,4 +1,8 @@
 import React from 'react'
+import {
+    HashRouter,
+    Link
+  } from "react-router-dom";
 
 import facebookImg from "../images/facebook-img.jpg";
 import githubImg from "../images/github-img.jpg";
@@ -7,11 +11,11 @@ import linkedinImg from "../images/linkedin-img.jpg";
 const SocialMedia = () => {
     return (
         <div className='socialMedia-container'>
-            <div className='socialMedia-elem github'>
-                <a href="https://github.com/TomaszBeben" target="_blank" >
+                <a href="https://github.com/TomaszBeben"
+                    target="_blank"
+                    className='socialMedia-elem github'>
                     <img className="socialMedia-img" src={githubImg} alt="facebook"/>
                 </a>
-            </div>
                 <a href="https://www.linkedin.com/in/tomasz-bęben-1944021a2" target="_blank" className='socialMedia-elem linkedIn'>
                     <img className="socialMedia-img" src={linkedinImg} alt="linkedin" />
                 </a>

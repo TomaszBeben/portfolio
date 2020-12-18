@@ -9,6 +9,10 @@ body {
     font-family: 'Righteous', cursive;
     @media (min-width: 1000px) {
         margin: 0 10vw 0 10vw;
+        background-image: url(../images/backgrond_1920x1080.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: -20px;
     }
 }
 
