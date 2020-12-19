@@ -6,6 +6,7 @@ import {
   } from "react-router-dom";
 
 import Form from './Form';
+import Resume from './Resume'
 import SocialMedia from './SocialMedia';
 
 
@@ -15,6 +16,7 @@ const PageContent = () => {
         <HashRouter>
             <Switch>
                 <div className='page-content-container'>
+                    <Route exact path="/" component={Resume}></Route>
                     <Route exact path="/form" component={Form}></Route>
                     <Route exact path="/social" component={SocialMedia}></Route>
                 </div>

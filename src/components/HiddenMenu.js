@@ -20,10 +20,10 @@ const HiddenMenu = () => {
             <div className={hidden}>
                 <HashRouter>
                 <div className='hiddenMenu-container'>
-                    <Link className='hiddenMenu-elem' to='/social'>Social Media</Link>
-                    <div className='hiddenMenu-elem'>PROJEKTY</div>
-                    <div className='hiddenMenu-elem'>PROJEKTY</div>
-                    <div className='hiddenMenu-elem'>PROJEKTY</div>
+                    <Link className='hiddenMenu-elem' to='/social' onClick={switchFunc}>Social Media</Link>
+                    <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>
+                    <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>
+                    <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>
                 </div>
                 </HashRouter>
             </div>

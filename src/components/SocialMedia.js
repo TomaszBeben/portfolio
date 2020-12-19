@@ -1,8 +1,4 @@
 import React from 'react'
-import {
-    HashRouter,
-    Link
-  } from "react-router-dom";
 
 import facebookImg from "../images/facebook-img.jpg";
 import githubImg from "../images/github-img.jpg";

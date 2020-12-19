@@ -1,0 +1,43 @@
+.resume-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.resume-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.resume-img-clicked {
+    transition: 1s;
+    transform: scale(0);
+}
+
+.resume-flag-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flag {
+    width: 200px;
+    height: 150px;
+}
+
+.pl-flag {
+    transition: 0.2s;
+    transform: translateX(-50px);
+}
+
+.en-flag {
+    transition: 0.2s;
+    transform: translateX(50px);
+}
