@@ -15,29 +15,48 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    position: relative;
+    z-index: 2;
 }
 
 .resume-img-clicked {
-    transition: 1s;
+    transition: 0.2s;
     transform: scale(0);
 }
 
 .resume-flag-container {
     display: flex;
     flex-direction: row;
+    transform: translateY(-170px);
 }
 
 .flag {
     width: 200px;
     height: 150px;
+    border-radius: 50%;
+    display: none;
+}
+
+.flag2 {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .pl-flag {
-    transition: 0.2s;
-    transform: translateX(-50px);
+    display: none;
 }
 
 .en-flag {
+    display: none;
+}
+
+.pl-flag2 {
+    transition: 2s;
+    transform: translateX(-50px);
+}
+
+.en-flag2 {
     transition: 0.2s;
     transform: translateX(50px);
 }
