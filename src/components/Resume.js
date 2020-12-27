@@ -12,13 +12,8 @@ const Resume = () => {
     const [cv, setCv] = useState(resume);
     const switchResume = () => cv === hiddenResume ? setCv(resume) : setCv(hiddenResume);
 
-    // const hidePlFlag = 'pl-flag';
-    // const showPlFlag = 'pl-flag-1';
-    // const hideEnFlag = 'en-flag';
-    // const showEnFlag = 'en-flag-1';
-
     const[flags, setFlags]= useState('')
-    const switchFlags = () => (flags === '' ? setFlags('2') : setFlags(''))&&(switchResume);
+    const switchFlags = () => flags === '' ? setFlags('2') : setFlags('');
 
     return (
         <div className='resume-container'>
@@ -27,10 +22,10 @@ const Resume = () => {
             </div>
             <div className='resume-flag-container'>
                 <a href={null} download>
-                    <img className={`flag${flags} pl_flag${flags}`} src={PlFlag} alt="PlFlag" onClick={switchResume}/>
+                    <img className={`flag${flags} pl-flag${flags}`} src={PlFlag} alt="PlFlag" onClick={()=>{switchResume();switchFlags();}}/>
                 </a>
                 <a href={null} download>
-                    <img className={`flag${flags} en_flag${flags}`} src={EnFlag} alt="EnFlag" onClick={switchResume}/>
+                    <img className={`flag${flags} en-flag${flags}`} src={EnFlag} alt="EnFlag" onClick={()=>{switchResume();switchFlags();}}/>
                 </a>
             </div>
         </div>

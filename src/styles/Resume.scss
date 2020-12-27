@@ -1,14 +1,15 @@
 .resume-container {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    transform: scale(0.5);
+    position: relative;
+    bottom: 200px;
+    left: 150px;
 }
 
 .resume-img-container {
-    display: flex;
-    justify-content: center;
+    width: 200px;
+    height: 200px;
 }
 
 .resume-img {
@@ -16,7 +17,8 @@
     width: 200px;
     border-radius: 50%;
     position: relative;
-    z-index: 2;
+    left: 150px;
+    top: 150px;
 }
 
 .resume-img-clicked {
@@ -25,15 +27,13 @@
 }
 
 .resume-flag-container {
-    display: flex;
-    flex-direction: row;
-    transform: translateY(-170px);
+    width: 20px;
+    position: relative;
+    left: 237px;
+    top: 44px;
 }
 
 .flag {
-    width: 200px;
-    height: 150px;
-    border-radius: 50%;
     display: none;
 }
 
@@ -41,6 +41,7 @@
     width: 200px;
     height: 150px;
     border-radius: 50%;
+    position: relative;
 }
 
 .pl-flag {
@@ -52,11 +53,48 @@
 }
 
 .pl-flag2 {
-    transition: 2s;
-    transform: translateX(-50px);
+    width: 10px;
+    height: 10px;
+    scale: 1;
+    position: relative;
+    animation-name: plFlag;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes plFlag {
+    0% {
+        right: 0px;
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(12);
+    }
+    100% {
+        right: 80px;
+        transform: scale(10)
+    }
 }
 
 .en-flag2 {
-    transition: 0.2s;
-    transform: translateX(50px);
+    width: 10px;
+    height: 10px;
+    position: relative;
+    animation-name: enFlag;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes enFlag {
+    0% {
+        left: 0px;
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(12);
+    }
+    100% {
+        left: 80px;
+        transform: scale(10)
+    }
 }

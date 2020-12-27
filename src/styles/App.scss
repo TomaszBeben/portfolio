@@ -9,13 +9,14 @@ body {
     color: white;
     font-family: 'Righteous', cursive;
     @media (min-width: 1000px) {
+        width: 1200px;
         margin: 0 10vw 0 10vw;
         // background-image: url(../images/backgrond_1920x1080.jpg);
         // background-repeat: no-repeat;
         // background-position-y: -430px;
         // background-position-x: -732px;
         // background-size: 190%;
-        //background on pc
+        // // background on pc
     }
 }
 
