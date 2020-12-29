@@ -1,0 +1,17 @@
+.navBar-container-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cv {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+    }
+}

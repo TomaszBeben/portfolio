@@ -4,7 +4,7 @@
     transform: scale(0.5);
     position: relative;
     bottom: 200px;
-    left: 150px;
+    left: 130px;
 }
 
 .resume-img-container {
@@ -13,12 +13,15 @@
 }
 
 .resume-img {
-    height: 200px;
-    width: 200px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    position: relative;
-    left: 150px;
-    top: 150px;
+    opacity: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .resume-img-clicked {
