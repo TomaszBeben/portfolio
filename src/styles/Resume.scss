@@ -1,103 +1,91 @@
-.resume-container {
-    width: 500px;
-    height: 500px;
-    transform: scale(0.5);
-    position: relative;
-    bottom: 200px;
-    left: 130px;
-}
-
-.resume-img-container {
-    width: 200px;
-    height: 200px;
-}
-
-.resume-img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    opacity: 50%;
-    margin-right: 5px;
-    cursor: pointer;
-    &:hover {
-        opacity: 1;
-    }
-}
-
-.resume-img-clicked {
-    transition: 0.2s;
-    transform: scale(0);
-}
-
-.resume-flag-container {
-    width: 20px;
-    position: relative;
-    left: 237px;
-    top: 44px;
-}
-
-.flag {
-    display: none;
-}
-
-.flag2 {
-    width: 200px;
-    height: 150px;
-    border-radius: 50%;
-    position: relative;
-}
-
-.pl-flag {
-    display: none;
-}
-
-.en-flag {
-    display: none;
-}
-
-.pl-flag2 {
-    width: 10px;
-    height: 10px;
-    scale: 1;
-    position: relative;
-    animation-name: plFlag;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes plFlag {
-    0% {
-        right: 0px;
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(12);
-    }
-    100% {
-        right: 80px;
-        transform: scale(10)
-    }
-}
-
-.en-flag2 {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    animation-name: enFlag;
-    animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes enFlag {
-    0% {
-        left: 0px;
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(12);
-    }
-    100% {
-        left: 80px;
-        transform: scale(10)
-    }
-}
+// .resume-container {
+//     width: 500px;
+//     height: 500px;
+//     transform: scale(0.5);
+//     position: relative;
+//     bottom: 200px;
+//     left: 130px;
+// }
+// .resume-img-container {
+//     width: 200px;
+//     height: 200px;
+// }
+// .resume-img {
+//     width: 35px;
+//     height: 35px;
+//     border-radius: 50%;
+//     opacity: 50%;
+//     margin-right: 5px;
+//     cursor: pointer;
+//     &:hover {
+//         opacity: 1;
+//     }
+// }
+// .resume-img-clicked {
+//     transition: 0.2s;
+//     transform: scale(0);
+// }
+// .resume-flag-container {
+//     width: 20px;
+//     position: relative;
+//     left: 237px;
+//     top: 44px;
+// }
+// .flag {
+//     display: none;
+// }
+// .flag2 {
+//     width: 200px;
+//     height: 150px;
+//     border-radius: 50%;
+//     position: relative;
+// }
+// .pl-flag {
+//     display: none;
+// }
+// .en-flag {
+//     display: none;
+// }
+// .pl-flag2 {
+//     width: 10px;
+//     height: 10px;
+//     scale: 1;
+//     position: relative;
+//     animation-name: plFlag;
+//     animation-duration: 0.2s;
+//     animation-fill-mode: forwards;
+// }
+// @keyframes plFlag {
+//     0% {
+//         right: 0px;
+//         transform: scale(1);
+//     }
+//     50% {
+//         transform: scale(12);
+//     }
+//     100% {
+//         right: 80px;
+//         transform: scale(10)
+//     }
+// }
+// .en-flag2 {
+//     width: 10px;
+//     height: 10px;
+//     position: relative;
+//     animation-name: enFlag;
+//     animation-duration: 0.2s;
+//     animation-fill-mode: forwards;
+// }
+// @keyframes enFlag {
+//     0% {
+//         left: 0px;
+//         transform: scale(1);
+//     }
+//     50% {
+//         transform: scale(12);
+//     }
+//     100% {
+//         left: 80px;
+//         transform: scale(10)
+//     }
+// }
