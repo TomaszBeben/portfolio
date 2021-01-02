@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7d7c0585.chunk.css",
-    "main.js": "/portfolio/static/js/main.e3e461fd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e3e461fd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e45ddf4f.chunk.css",
+    "main.js": "/portfolio/static/js/main.d98e577b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d98e577b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c3cfb48a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c3cfb48a.js.map",
     "static/js/2.221dde0b.chunk.js": "/portfolio/static/js/2.221dde0b.chunk.js",
     "static/js/2.221dde0b.chunk.js.map": "/portfolio/static/js/2.221dde0b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.7d7c0585.chunk.css.map": "/portfolio/static/css/main.7d7c0585.chunk.css.map",
+    "static/css/main.e45ddf4f.chunk.css.map": "/portfolio/static/css/main.e45ddf4f.chunk.css.map",
     "static/js/2.221dde0b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.221dde0b.chunk.js.LICENSE.txt",
     "static/media/CV_Tomasz_Bęben.2f580f64.pdf": "/portfolio/static/media/CV_Tomasz_Bęben.2f580f64.pdf",
     "static/media/cv.01613701.jpg": "/portfolio/static/media/cv.01613701.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c3cfb48a.js",
     "static/js/2.221dde0b.chunk.js",
-    "static/css/main.7d7c0585.chunk.css",
-    "static/js/main.e3e461fd.chunk.js"
+    "static/css/main.e45ddf4f.chunk.css",
+    "static/js/main.d98e577b.chunk.js"
   ]
 }
