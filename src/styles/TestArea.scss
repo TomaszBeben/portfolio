@@ -5,14 +5,18 @@
 }
 
 .cv {
+    z-index: 2;
     width: 33px;
     height: 33px;
     border-radius: 50%;
-    opacity: 50%;
     margin-right: 5px;
     cursor: pointer;
-    &:hover {
-        opacity: 1;
+    @media (min-width: 1000px) {
+        opacity: 0.5;
+        transition: 0.3s;
+        &:hover {
+            opacity: 1;
+        }
     }
 }
 
@@ -41,6 +45,8 @@
 
 @keyframes enFlag {
     0% {
+        position: relative;
+        z-index: -1;
         right: -32px;
         opacity: 0;
     }
@@ -63,6 +69,8 @@
 
 @keyframes plFlag {
     0% {
+        position: relative;
+        z-index: -1;
         right: -60px;
         opacity: 0;
     }
@@ -72,6 +80,6 @@
     }
 }
 
-.hide {
+.hide-cv {
     display: none;
 }

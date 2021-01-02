@@ -10,9 +10,10 @@ const HiddenMenu = () => {
     const hide = 'hiddenMenu-container-container hide'
     const [hidden, setHidden] = useState(hide)
     const switchFunc = () => hidden === hide ? setHidden(show) : setHidden(hide);
+
     return (
         <>
-            <div className='hamburger-container'  >
+            <div className='hamburger-container'>
                 <div className='hamburger-button-container' onClick={switchFunc}>
                     <Hamburger/>
                 </div>
@@ -20,7 +21,7 @@ const HiddenMenu = () => {
             <div className={hidden}>
                 <HashRouter>
                 <div className='hiddenMenu-container'>
-                    <Link className='hiddenMenu-elem' to='/social' onClick={switchFunc}>Social Media</Link>
+                    <Link className='hiddenMenu-elem' to='/social' onClick={()=>{switchFunc()}}>Social Media</Link>
                     <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>
                     <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>
                     <div className='hiddenMenu-elem' onClick={switchFunc}>PROJEKTY</div>

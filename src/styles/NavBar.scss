@@ -15,10 +15,13 @@
 
 .navBar-form {
     font-size: 35px;
-    color: gray;
-    &:hover {
-        transition: 0.3s;
-        color: black;
-        cursor: pointer;
+    color: black;
+    @media (min-width: 1000px) {
+        color: gray;
+        &:hover {
+            transition: 0.3s;
+            color: black;
+            cursor: pointer;
+        }
     }
 }

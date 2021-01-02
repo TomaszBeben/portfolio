@@ -1,7 +1,6 @@
 .hiddenMenu-container-container {
     display: flex;
     justify-content: center;
-    position: absolute;
 }
 
 .hiddenMenu-container {
@@ -17,12 +16,14 @@
     @media (min-width: 800px) {
         width: 100vw;
         height: 50px;
-        background-color: black;
+        background-color: gray;
         color: black;
         display: flex;
         flex-direction: row;
         align-items: center;
         padding-top: 5px;
+        position: relative;
+        z-index: 3;
     }
 }
 
@@ -37,16 +38,14 @@
     @media (min-width: 800px) {
         font-size: 20px;
         margin-left: 10px;
-        color: grey;
+        color: black;
     }
 }
 
 .hide {
-    top: -1000px;
-    @media (min-width: 800px) {
-        top: 0px;
-        display: flex;
-        position: relative;
+    display: flex;
+    @media (max-width: 800px) {
+        display: none;
     }
 }
 
@@ -66,4 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(min-width: 800px) {
+        display: none;
+    }
 }
