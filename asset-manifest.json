@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e45ddf4f.chunk.css",
+    "main.css": "/portfolio/static/css/main.6f007b68.chunk.css",
     "main.js": "/portfolio/static/js/main.f18d3c7e.chunk.js",
     "main.js.map": "/portfolio/static/js/main.f18d3c7e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c3cfb48a.js",
@@ -8,9 +8,10 @@
     "static/js/2.221dde0b.chunk.js": "/portfolio/static/js/2.221dde0b.chunk.js",
     "static/js/2.221dde0b.chunk.js.map": "/portfolio/static/js/2.221dde0b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e45ddf4f.chunk.css.map": "/portfolio/static/css/main.e45ddf4f.chunk.css.map",
+    "static/css/main.6f007b68.chunk.css.map": "/portfolio/static/css/main.6f007b68.chunk.css.map",
     "static/js/2.221dde0b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.221dde0b.chunk.js.LICENSE.txt",
     "static/media/CV_Tomasz_Bęben.7b7471de.pdf": "/portfolio/static/media/CV_Tomasz_Bęben.7b7471de.pdf",
+    "static/media/App.scss": "/portfolio/static/media/backgrond_1920x1080.9c590a76.jpg",
     "static/media/cv.01613701.jpg": "/portfolio/static/media/cv.01613701.jpg",
     "static/media/enCV_Tomasz_Beben.4ec1bd8f.pdf": "/portfolio/static/media/enCV_Tomasz_Beben.4ec1bd8f.pdf",
     "static/media/enFlag.476eb36b.jpg": "/portfolio/static/media/enFlag.476eb36b.jpg",
@@ -21,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c3cfb48a.js",
     "static/js/2.221dde0b.chunk.js",
-    "static/css/main.e45ddf4f.chunk.css",
+    "static/css/main.6f007b68.chunk.css",
     "static/js/main.f18d3c7e.chunk.js"
   ]
 }
