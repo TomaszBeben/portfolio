@@ -6,6 +6,8 @@ import CvImg from '../images/cv.jpg'
 import PlFlag from '../images/plFlag.jpg'
 import EnFlag from '../images/enFlag.jpg'
 
+
+
 const TestArea = () => {
     const [flagEn, setFlagsEn] = useState('hide-cv');
     const switchFlagEn = () => flagEn === 'hide-cv' ? setFlagsEn(`en-flag`) : setFlagsEn('hide-cv');

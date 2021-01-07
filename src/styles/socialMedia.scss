@@ -10,17 +10,18 @@
 }
 
 .socialMedia-elem {
-    width: 300px;
-    height: 200px;
-    margin: 50px 50px 50px 50px;
+    width: 250px;
+    height: 150px;
+    margin: 50px 30px 50px 30px;
 }
 
 .socialMedia-img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     filter: grayscale(100%);
     transition: 0.3s;
     cursor: pointer;
+    border-radius: 3%;
     &:hover {
         filter: grayscale(20%);
         transform: scale(1.2);
